@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".CommentActivity">
+
+    <TextView
+        android:id="@+id/comments_text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comments"
+        android:layout_margin="5dp"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/comments_views"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/comments_text">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <EditText
+        android:id="@+id/comments_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="55dp"
+        android:background="@android:color/white"
+        android:padding="15dp"
+        android:hint="Write a comment"
+        android:inputType="textMultiLine"/>
+
+    <ImageButton
+        android:id="@+id/post_comment_button"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignBottom="@+id/comments_input"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/post_comment"
+        android:padding="15dp"/>
+
+</RelativeLayout>
