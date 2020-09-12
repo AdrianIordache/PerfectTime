@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "330975027713",
+    "firebase_url": "https://perfecttime-2496c.firebaseio.com",
+    "project_id": "perfecttime-2496c",
+    "storage_bucket": "perfecttime-2496c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330975027713:android:7d7ff6bcf32ae7aa",
+        "android_client_info": {
+          "package_name": "com.example.adi.perfecttime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330975027713-0498f6oilqhv56vco7l40vrftknebks5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adi.perfecttime",
+            "certificate_hash": "436c0fb2d56d2a1f591df77ebf4451de87e12cf7"
+          }
+        },
+        {
+          "client_id": "330975027713-jfpu0foau6rjbtkhs00hlggrnp6c1jp0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBow7xeXK_tWCZk3uHybBkjaq7nAXefqko"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330975027713-jfpu0foau6rjbtkhs00hlggrnp6c1jp0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

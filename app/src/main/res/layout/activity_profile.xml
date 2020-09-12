@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context=".ProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           
+           <de.hdodenhof.circleimageview.CircleImageView
+               android:id="@+id/person_profile_image"
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="10dp"
+               android:src="@drawable/profile" />
+
+           <TextView
+               android:id="@+id/person_profile_name"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Profile Name"
+               android:layout_below="@+id/person_profile_image"
+               android:background="@drawable/inputs"
+               android:textAllCaps="false"
+               android:layout_marginTop="10dp"
+               android:textAlignment="center"
+               android:textSize="20dp"
+               android:textStyle="bold"/>
+
+           <TextView
+               android:id="@+id/person_profile_user_name"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Username"
+               android:layout_below="@+id/person_profile_name"
+               android:background="@drawable/inputs"
+               android:textAllCaps="false"
+               android:layout_marginTop="10dp"
+               android:textAlignment="center"
+               android:textSize="18dp" />
+
+           <TextView
+               android:id="@+id/person_profile_status"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Hey, I am using PerfectTime, developed by Adrian Iordache."
+               android:layout_below="@+id/person_profile_user_name"
+               android:background="@drawable/inputs"
+               android:textAllCaps="false"
+               android:layout_marginTop="10dp"
+               android:textAlignment="center"
+               android:textColor="@color/colorPrimaryDark"
+               android:textSize="18dp" />
+
+           <TextView
+               android:id="@+id/person_profile_country"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Country"
+               android:layout_below="@+id/person_profile_status"
+               android:background="@drawable/inputs"
+               android:textAllCaps="false"
+               android:layout_marginTop="90dp"
+               android:textAlignment="center"
+               android:textSize="18dp" />
+
+           <TextView
+               android:id="@+id/person_profile_date_of_birth"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Date of Birth"
+               android:layout_below="@+id/person_profile_country"
+               android:background="@drawable/inputs"
+               android:textAllCaps="false"
+               android:layout_marginTop="5dp"
+               android:textAlignment="center"
+               android:textSize="18dp" />
+
+           <TextView
+               android:id="@+id/person_profile_gender"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Gender"
+               android:layout_below="@+id/person_profile_date_of_birth"
+               android:background="@drawable/inputs"
+               android:textAllCaps="false"
+               android:layout_marginTop="5dp"
+               android:textAlignment="center"
+               android:textSize="18dp" />
+
+           <TextView
+               android:id="@+id/person_profile_relationship_status"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Relationship Status"
+               android:layout_below="@+id/person_profile_gender"
+               android:background="@drawable/inputs"
+               android:textAllCaps="false"
+               android:layout_marginTop="5dp"
+               android:textAlignment="center"
+               android:textSize="18dp" />
+
+           <Button
+               android:id="@+id/my_posts_button"
+               android:layout_width="150dp"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentStart="true"
+               android:layout_marginStart="10dp"
+               android:layout_marginTop="50dp"
+               android:text="My Posts"
+               android:layout_below="@id/person_profile_relationship_status"
+               android:background="@drawable/button"
+               android:textColor="@android:color/white"
+               android:textAllCaps="false"
+               android:textSize="16sp" />
+
+
+           <Button
+               android:id="@+id/my_all_friends_button"
+               android:layout_width="150dp"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentEnd="true"
+               android:layout_marginEnd="10dp"
+               android:layout_marginTop="50dp"
+               android:text="My Friends"
+               android:layout_below="@id/person_profile_relationship_status"
+               android:background="@drawable/button"
+               android:textColor="@android:color/white"
+               android:textAllCaps="false"
+               android:textSize="16sp" />
+
+
+           
+       </RelativeLayout>
+        
+        
+    </ScrollView>
+    
+</RelativeLayout>

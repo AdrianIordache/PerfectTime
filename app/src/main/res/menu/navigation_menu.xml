@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_post"
+        android:icon="@drawable/add_post"
+        android:title="Add New Post" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/profile_icon"
+        android:title="Profile" />
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/home"/>
+
+    <item
+        android:id="@+id/nav_search"
+        android:title="Search"
+        android:icon="@drawable/search"/>
+
+    <item
+        android:id="@+id/nav_friends"
+        android:title="Friends"
+        android:icon="@drawable/friends"/>
+
+    <item
+        android:id="@+id/nav_messages"
+        android:title="Messages"
+        android:icon="@drawable/messages"/>
+
+    <item
+        android:id="@+id/nav_setting"
+        android:title="Settings"
+        android:icon="@drawable/settings"/>
+
+    <item
+        android:id="@+id/nav_playground"
+        android:title="Playground"
+        android:icon="@drawable/playground"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/logout"/>
+
+
+
+</menu>

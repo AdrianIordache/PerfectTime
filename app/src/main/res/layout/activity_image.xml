@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ImageActivity">
+
+    <include
+        layout="@layout/app_bar_layout"
+        android:id="@+id/image_bar_layout">
+
+    </include>
+
+    <ImageView
+        android:id="@+id/image_view_profile"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/profile"
+        />
+
+
+</RelativeLayout>
