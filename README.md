@@ -5,5 +5,5 @@ Perfect Time - Social Network Android App with NewsFeed, developed with Firebase
 
 Last Version (2.0):
 - Authentication Bug Fixed
-- Added Experimental Feature "Playground" - developed by Ștefan Brașoveanu (Github Link: https://github.com/BrStefan
+- Added Experimental Feature "Playground" - developed by Ștefan Brașoveanu (Github Link: https://github.com/BrStefan)
 
